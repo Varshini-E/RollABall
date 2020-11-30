@@ -1394,7 +1394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41911359a23a8b044b0a16e9f1b0de2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 200
+  speed: 700
   countText: {fileID: 1985720414}
   winText: {fileID: 1283122666}
 --- !u!54 &1779062599

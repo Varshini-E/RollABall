@@ -9,7 +9,7 @@ The game was developed by following the video tutorials available at https://lea
 
 # Installation and Usage 
 
-1. Clone the repository to your system or download the ZIP folder.
+1. Clone the repository to your system or download and extract the ZIP folder.
 
 2. Open Unity and navigate to your project location.
 

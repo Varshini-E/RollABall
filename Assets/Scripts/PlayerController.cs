@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed;
+    public float speed = 0.0f;
     private Rigidbody rb;
     private int count;
     public Text countText;
@@ -17,7 +17,6 @@ public class PlayerController : MonoBehaviour
         count = 0;
         SetCountText();
         winText.text = "";
-
     }
 
     void FixedUpdate()
@@ -27,8 +26,7 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
 
-        rb.AddForce(movement * speed);
-
+        rb.AddForce(movement * speed * Time.deltaTime);
     }
 
     void OnTriggerEnter(Collider other)

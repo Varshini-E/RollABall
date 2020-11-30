@@ -7,6 +7,10 @@ using Unity’s Physics engines.
 
 The game was developed by following the video tutorials available at https://learn.unity.com/project/roll-a-ball. The game is perfect for a beginner looking to explore 3D game development using Unity software. 
 
+# Prerequisites
+
+1. [Unity](https://unity3d.com/get-unity/download)
+
 # Installation and Usage 
 
 1. Clone the repository to your system or download and extract the ZIP folder.
@@ -18,6 +22,8 @@ The game was developed by following the video tutorials available at https://lea
 4. Once the Unity window opens, go to Assets -> Scenes -> Game.
 
 5. The Game opens as the current scene. The Hierarchy Tab lists all the Game objects and click on any to see the specifications in the Inspector Tab.
+
+6. Click on the Play button to play the game. 
 
 
 
